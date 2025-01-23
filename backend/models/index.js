@@ -1,5 +1,5 @@
 const express = require('express'); //Framework para la creacion del server.
-const db = require('./backend/config/db'); //Importo el archivo de conexion.
+const db = require('../config/db'); //Importo el archivo de conexion.
 
 const app = express(); //Creo la app de express
 
