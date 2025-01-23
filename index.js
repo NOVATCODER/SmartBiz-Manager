@@ -13,7 +13,6 @@ try {
     res.status(500).send('Fallo la conexion a la bd.');
 }
 });
-
 //Inicio el server en el puerto 3000
 app.listen(3000, () =>{
     console.log('Server corriendo en http://localhost:3000');

@@ -11,7 +11,7 @@ console.log(`Cargando configuracion desde ${envFile}`);
 //Verifica que todas las variables de entorno enten definidas.
 ['DB_HOST', 'DB_USER', 'DB_NAME'].forEach((key) => {
     if (!process.env[key]) {
-        console.error('Falta la variable de entorno: ${key}');
+        console.error(`Falta la variable de entorno: ${key}`);
         process.exit(1);//termina el proceso si falta una variabale
     }
 });
